@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - karma-phantomjs-launcher > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - sass-loader > async > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - webpack > async > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - webpack > watchpack > async > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-04-30T23:32:20.816Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-04-30T23:32:20.816Z'

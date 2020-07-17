@@ -59,14 +59,14 @@
     "raw-loader": "^0.5.1",
     "rxjs": "^5.4.3",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
+    "style-loader": "^0.20.0",
     "ts-loader": "^2.3.3",
     "tslint": "^5.7.0",
     "tslint-origin-ordered-imports-rule": "^1.0.4",
     "twitter-bootstrap-3.0.0": "^3.0.0",
     "typescript": "^2.4.2",
     "url-loader": "^0.5.9",
-    "webpack": "^3.5.5",
+    "webpack": "^3.11.0",
     "zone.js": "^0.8.17"
   }
 }

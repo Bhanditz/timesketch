@@ -34,7 +34,7 @@
     "brace": "^0.10.0",
     "chart.js": "2.2.2",
     "chokidar": "^1.7.0",
-    "chokidar-cli": "^1.2.0",
+    "chokidar-cli": "^1.2.1",
     "codelyzer": "^3.2.0",
     "css-loader": "^0.28.5",
     "cytoscape": "3.1.0",

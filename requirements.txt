@@ -20,7 +20,7 @@ chardet==3.0.4            # via requests
 click==6.7                # via flask
 configparser==3.5.0       # via pylint
 coverage==4.4.1
-cryptography==2.4.1
+cryptography==3.2
 datasketch==1.2.5
 elasticsearch==5.4.0
 enum34==1.1.6             # via astroid, cryptography

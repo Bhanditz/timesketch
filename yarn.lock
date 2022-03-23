@@ -8,14 +8,15 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/compiler-cli@5.0.0-beta.5":
-  version "5.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.0.0-beta.5.tgz#6370e0df397fe74f7a9846a5c6591ad3900ff4d8"
+"@angular/compiler-cli@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.0.0.tgz#0ecbb937d84a4f8dd94f0c2a47b07d2e4694c853"
+  integrity sha1-Dsu5N9hKT43ZTwwqR7B9LkaUyFM=
   dependencies:
-    "@angular/tsc-wrapped" "5.0.0-beta.5"
+    chokidar "^1.4.2"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
-    tsickle "^0.23.4"
+    tsickle "^0.24.0"
 
 "@angular/compiler@5.0.0-beta.5":
   version "5.0.0-beta.5"
@@ -46,12 +47,6 @@
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.0.0-beta.5.tgz#ed32df2750150f620a1f64c4919b88beb3c0a1e2"
   dependencies:
     tslib "^1.7.1"
-
-"@angular/tsc-wrapped@5.0.0-beta.5":
-  version "5.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-5.0.0-beta.5.tgz#73f61a72fac81625d85ebb4c2d548b2641f51d7b"
-  dependencies:
-    tsickle "^0.21.0"
 
 "@angular/upgrade@5.0.0-beta.5":
   version "5.0.0-beta.5"
@@ -696,7 +691,7 @@ chokidar-cli@^1.2.0:
     shell-quote "^1.4.3"
     yargs "^3.7.2"
 
-chokidar@^1.0.1, chokidar@^1.4.1, chokidar@^1.7.0:
+chokidar@^1.0.1, chokidar@^1.4.1, chokidar@^1.4.2, chokidar@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
   dependencies:
@@ -4438,18 +4433,10 @@ ts-loader@^2.3.3:
     loader-utils "^1.0.2"
     semver "^5.0.1"
 
-tsickle@^0.21.0:
-  version "0.21.6"
-  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.21.6.tgz#53b01b979c5c13fdb13afb3fb958177e5991588d"
-  dependencies:
-    minimist "^1.2.0"
-    mkdirp "^0.5.1"
-    source-map "^0.5.6"
-    source-map-support "^0.4.2"
-
-tsickle@^0.23.4:
-  version "0.23.6"
-  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.23.6.tgz#fcee57a5cb7f92a8c3a9e578ee0a286427dcfacd"
+tsickle@^0.24.0:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.24.1.tgz#039343b205bf517a333b0703978892f80a7d848e"
+  integrity sha512-XloFQZhVhgjpQsi3u2ORNRJvuID5sflOg6HfP093IqAbhE1+fIUXznULpdDwHgG4p+v8w78KdHruQtkWUKx5AQ==
   dependencies:
     minimist "^1.2.0"
     mkdirp "^0.5.1"

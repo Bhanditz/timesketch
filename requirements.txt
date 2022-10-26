@@ -20,7 +20,7 @@ chardet==3.0.4            # via requests
 click==6.7                # via flask
 configparser==3.5.0       # via pylint
 coverage==4.4.1
-cryptography==2.4.1
+cryptography==3.2
 datasketch==1.2.5
 elasticsearch==5.4.0
 enum34==1.1.6             # via astroid, cryptography
@@ -64,7 +64,7 @@ redis==2.10.6
 requests==2.20.1
 singledispatch==3.4.0.3   # via astroid, pylint
 six==1.10.0               # via astroid, bcrypt, cryptography, flask-restful, mock, pylint, python-dateutil, singledispatch
-sqlalchemy==1.1.13
+sqlalchemy==1.2.18
 urllib3==1.24.1
 vine==1.1.4               # via amqp
 werkzeug==0.14.1          # via flask

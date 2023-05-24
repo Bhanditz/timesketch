@@ -61,7 +61,7 @@ python-editor==1.0.3      # via alembic
 pytz==2017.2              # via celery, flask-restful
 pyyaml==4.2b4
 redis==2.10.6
-requests==2.20.1
+requests==2.31.0
 singledispatch==3.4.0.3   # via astroid, pylint
 six==1.10.0               # via astroid, bcrypt, cryptography, flask-restful, mock, pylint, python-dateutil, singledispatch
 sqlalchemy==1.1.13

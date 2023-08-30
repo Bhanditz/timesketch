@@ -68,6 +68,11 @@
     magic-string "^0.22.3"
     source-map "^0.5.6"
 
+"@snyk/protect@^1.1207.0":
+  version "1.1207.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1207.0.tgz#1fa34a07987100b43faf94e04aaaaf528b14a437"
+  integrity sha512-ghRa5S8aH8z9I3WGbl4/ISqkNUOmiNLG1XWkN7SyCsd1UZmY0WZDiKMLU1ZQrPQQdrCPyC+jwpRkKwDdfFLVqw==
+
 "@types/cytoscape@git+https://git@github.com/phreed/ts-typings#7a3e013e6b2a1a6bfc643cf173912eea1e14ebac":
   version "3.1.0"
   resolved "git+https://git@github.com/phreed/ts-typings#7a3e013e6b2a1a6bfc643cf173912eea1e14ebac"

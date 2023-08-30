@@ -13,7 +13,9 @@
     "test:watch": "karma start",
     "test:coverage": "karma start karma-coverage.conf.js --single-run --no-auto-watch && rm -rf ./coverage",
     "lint": "tslint --project . && echo 'TSLint: No errors!'",
-    "lint:watch": "chokidar timesketch/ui/**/*.ts timesketch/ui/*.ts -c 'yarn run lint' --initial --verbose"
+    "lint:watch": "chokidar timesketch/ui/**/*.ts timesketch/ui/*.ts -c 'yarn run lint' --initial --verbose",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@angular/common": "5.0.0-beta.5",
@@ -67,6 +69,8 @@
     "typescript": "^2.4.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.5",
-    "zone.js": "^0.8.17"
-  }
+    "zone.js": "^0.8.17",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

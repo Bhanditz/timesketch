@@ -35,7 +35,7 @@ flask-wtf==0.14.2
 flask==1.0.2
 funcsigs==1.0.2           # via mock
 gunicorn==19.7.1
-idna==2.6                 # via cryptography, requests
+idna==3.7                 # via cryptography, requests
 ipaddress==1.0.22         # via cryptography
 isort==4.2.15             # via pylint
 itsdangerous==0.24        # via flask
